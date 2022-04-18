@@ -1,0 +1,151 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2021.4.27)  18 APR 2022 12:12
+entering extended mode
+**./multiple_choice.tex
+(multiple_choice.tex
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-08-07>
+("C:\Program Files\MiKTeX\tex/latex/exam\exam.cls"
+Document Class: exam 2021/02/26 Version 2.7 by Philip Hirschhorn
+("C:\Program Files\MiKTeX\tex/latex/base\ifthen.sty"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+("C:\Program Files\MiKTeX\tex/latex/base\article.cls"
+Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
+("C:\Program Files\MiKTeX\tex/latex/base\size10.clo"
+File: size10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+)
+\c@part=\count168
+\c@section=\count169
+\c@subsection=\count170
+\c@subsubsection=\count171
+\c@paragraph=\count172
+\c@subparagraph=\count173
+\c@figure=\count174
+\c@table=\count175
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen134
+)
+\@extrawidth=\skip49
+\@rightmargin=\skip50
+\@extrahead=\skip51
+\@extrafoot=\skip52
+\run@exhd=\skip53
+\fp@exhd=\skip54
+\run@exft=\skip55
+\fp@exft=\skip56
+\covrun@exhd=\skip57
+\covfp@exhd=\skip58
+\covrun@exft=\skip59
+\covfp@exft=\skip60
+\c@num@coverpages=\count176
+\c@latest@ques=\count177
+\c@ques@end=\count178
+\c@last@object=\count179
+\c@incmp@ques=\count180
+\c@next@ques=\count181
+\c@next@page=\count182
+\c@tmp@hlfcntr=\count183
+\c@ifpos@cntr=\count184
+\c@question=\count185
+\c@partno=\count186
+\c@subpart=\count187
+\c@subsubpart=\count188
+\c@choice=\count189
+\c@numpoints=\count190
+\c@numbonuspoints=\count191
+\c@pointsof@thisquestion=\count192
+\c@bonuspointsof@thisquestion=\count193
+\c@numquestions=\count194
+\c@numparts=\count195
+\c@numsubparts=\count196
+\c@numsubsubparts=\count197
+\c@Curr@Page=\count198
+\c@@pagepoints=\count199
+\c@@pagebonuspoints=\count266
+\c@pageof@pagepoints=\count267
+\c@pageof@pagebonuspoints=\count268
+\c@latest@points=\count269
+\c@latest@bonuspoints=\count270
+\pageinfo@commands=\toks15
+\temp@toks=\toks16
+\pagepoint@commands=\toks17
+\point@toks=\toks18
+\c@ques@object=\count271
+\marginpointssep=\skip61
+\rightpointsmargin=\skip62
+\choice@toks=\toks19
+\answerlinelength=\skip63
+\answerskip=\skip64
+\answerclearance=\skip65
+\fillinlinelength=\skip66
+\linefillheight=\skip67
+\linefillthickness=\skip68
+\dottedlinefillheight=\skip69
+\gridsize=\skip70
+\gridlinewidth=\skip71
+\minboxheight=\skip72
+\c@@iterator=\count272
+\@cellwidth=\skip73
+\c@tbl@points=\count273
+\c@tbl@bonuspoints=\count274
+\c@pq@index=\count275
+\c@pq@index@pts=\count276
+\c@pq@index@bpts=\count277
+\c@num@cols=\count278
+\c@num@rows=\count279
+\c@current@row=\count280
+\c@cols@done=\count281
+\exam@box=\box45
+\saved@totalleftmargin=\dimen135
+\@sollistdepth=\count282
+\exam@FrameRule=\dimen136
+\exam@FrameSep=\dimen137
+)
+("C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdfmode.def"
+File: l3backend-pdfmode.def 2020-08-07 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count283
+\l__pdf_internal_box=\box46
+)
+(multiple_choice.aux)
+\openout1 = `multiple_choice.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 8.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 8.
+ [1
+
+{C:/Users/Oskaras/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
+This exam contains 1 questions with 0 parts, 0 subparts, and 0 subsubparts.
+(multiple_choice.aux) ) 
+Here is how much of TeX's memory you used:
+ 1439 strings out of 481212
+ 21519 string characters out of 2915721
+ 268835 words of memory out of 3000000
+ 17103 multiletter control sequences out of 15000+200000
+ 535088 words of font info for 29 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 32i,9n,29p,139b,160s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/
+cmr10.pfb>
+Output written on multiple_choice.pdf (1 page, 16926 bytes).
+PDF statistics:
+ 10 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+
