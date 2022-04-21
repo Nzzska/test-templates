@@ -2,20 +2,28 @@ import random
 import os
 
 question_placeholders = [
-    '%Q0%', '%Q1%', '%Q2%', '%Q3%', '%Q4%', '%Q5%', '%Q6%'
+    '%Q0%', '%Q1%', 
+    '%Q2%', '%Q3%', 
+    '%Q4%', '%Q5%', 
+    '%Q6%'
 ]
 
 class Test():
     def __init__(
         self,
-
         name='bandomasis',
         title='bandomasis',
         template_location='template.tex'):
 
+        self.title = title
+        self.name = name
         self.questions = []
         self.content = ''
-        self.tex = open(template_location, 'r').read()
+        self.tex = open(
+            template_location, 
+            'r', 
+            encoding="utf8").read()
+        self.replace_placeholders(placeholder="%TITLE%")
         
 
     def get_questions(self, folder_name, number_of_questions):
@@ -31,9 +39,8 @@ class Test():
 
     def fnames_to_strings(self):
         self.choices_content = []
-        print(self.choices)
+        #print(self.choices)
         for choice in self.choices:
-            print(choice)
             self.choices_content \
                 .append(self.file_as_string(choice))
         self.choices = []
@@ -41,7 +48,9 @@ class Test():
             self.concat_pieces(self.choices_content)
 
     def file_as_string(self, filename):
-        content = open(filename, 'r').read()
+        print(filename)
+        content = open(filename, 'r', encoding="utf8") \
+            .read()
         return content
     
     #pieces = list of strings
@@ -49,7 +58,7 @@ class Test():
         final_string = ''
         try:
             for piece in pieces:
-                final_string += piece
+                final_string += piece +'\n'
             return final_string
         except:
             print(type(pieces))
@@ -60,8 +69,8 @@ class Test():
         self, 
         number_of_columns):
         first_line = \
-            "\\raggedcolumns\\begin{multicols} \
-            {{no_of_cols:.2f}} \n" \
+            '\\raggedcolumns\\begin{{multicols}} \
+            {{{no_of_cols}}} \n' \
             .format(no_of_cols = number_of_columns)
         last_line = '\\end{multicols} \n'
         self.content = first_line + self.content + last_line
@@ -73,5 +82,11 @@ class Test():
             self.content + last_line
 
     def replace_placeholders(self, placeholder):
-        self.tex.replace(placeholder, self.content)
-        self.content = ''
+        if (placeholder == "%TITLE%"):
+            self.tex = self.tex.replace(placeholder, self.title)
+        else:
+            self.tex = self.tex.replace(placeholder, self.content)
+            self.content = ''
+
+    def export_test(self, filename):
+        open(filename, 'w+', encoding="utf8").write(self.tex)

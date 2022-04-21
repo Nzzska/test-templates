@@ -1,4 +1,4 @@
-\question Ar fizika yra geriausias dalykas? \begin{choices}
+\question Kas yra šviesos dalelė? \begin{choices}
 	\choice Protonas.
 	\choice Fotonas.
 	\choice Elektronas.
