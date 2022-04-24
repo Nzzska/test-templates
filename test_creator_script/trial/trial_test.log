@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2021.4.27)  21 APR 2022 18:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2021.4.27)  24 APR 2022 20:03
 entering extended mode
 **c:/Users/Oskaras/Desktop/test_templates/repo/test-templates/test_creator_script/trial/trial_test.tex
 (c:/Users/Oskaras/Desktop/test_templates/repo/test-templates/test_creator_script/trial/trial_test.tex
@@ -257,20 +257,20 @@ LaTeX Font Info:    ... okay on input line 7.
  [1
 
 {C:/Users/Oskaras/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
-This exam contains 8 questions with 0 parts, 0 subparts, and 0 subsubparts.
+This exam contains 9 questions with 0 parts, 0 subparts, and 0 subsubparts.
 (trial_test.aux) ) 
 Here is how much of TeX's memory you used:
- 2764 strings out of 481212
- 38261 string characters out of 2915721
- 301364 words of memory out of 3000000
- 18397 multiletter control sequences out of 15000+200000
+ 2770 strings out of 481212
+ 38342 string characters out of 2915721
+ 309364 words of memory out of 3000000
+ 18403 multiletter control sequences out of 15000+200000
  536305 words of font info for 32 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 35i,9n,33p,313b,277s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 35i,9n,33p,313b,334s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Oskaras\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk>
-Output written on trial_test.pdf (1 page, 19998 bytes).
+Output written on trial_test.pdf (1 page, 23022 bytes).
 PDF statistics:
- 65 PDF objects out of 1000 (max. 8388607)
+ 70 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,2 +1,0 @@
-Į %METALAS% metalo plokštelę yra šviečiama %SPALVA% spalvos šviesa. \n
-Ar įvyks fotoefektas? Jei taip, kokia bus elektronų kinetinė energija?
