@@ -31,7 +31,8 @@ class Table_problem():
         table_type, 
         content):
         tabular = \
-        """\\begin{{center}}
+        """\\begin{{figure}}
+        \\centering
         \\begin{{tabular}}{{{s}}} 
         \\hline \n""".format(s=table_type)
         cols_names = []
@@ -50,7 +51,7 @@ class Table_problem():
                 cols,
                 row
             )
-        tabular += ' \n \\end{tabular} \n \\end{center} \n'
+        tabular += ' \n \\end{tabular} \n \\end{figure} \n'
         return tabular
 
     def empty_table_row(self, number_of_cols):

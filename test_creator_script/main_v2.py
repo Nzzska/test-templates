@@ -90,3 +90,8 @@ class Test():
 
     def export_test(self, filename):
         open(filename, 'w+', encoding="utf8").write(self.tex)
+
+    def parts_problem(self, text):
+        beggining = "\\question {0}\\begin{{parts}} \n".format(text)
+        ending = "\\end{parts}"
+        self.content = beggining + self.content + ending
